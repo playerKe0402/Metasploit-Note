@@ -7,7 +7,6 @@ Attacker IP : 192.168.1.1
 Victim IP : 192.168.1.2
 Victim OS : Windows 10x64
 ```
-Attacker Computer
 
 Step 1. 產生後門程式
 ```
