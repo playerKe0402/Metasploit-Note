@@ -85,5 +85,15 @@ C:\Windows\system32>whoami
 whoami
 nt authority\system
 ```
+# Notes
+* Metasploit 腳本更新
+  Kali 中 .rb 的存放路徑為 /usr/share/metasploit-framework/modules/exploits 中
+
+  將 .rb 放進去資料夾後，重新載入
+  ```
+  $ msfconsole
+  msf > reload_all
+  [*] Reloading modules from all module paths...
+  ```
 # Reference
 [metasploit-framework](https://github.com/rapid7/metasploit-framework)
