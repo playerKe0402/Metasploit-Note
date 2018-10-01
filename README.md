@@ -95,5 +95,9 @@ nt authority\system
   msf > reload_all
   [*] Reloading modules from all module paths...
   ```
+* 查詢可產生後門程式的類型
+  ```
+  $ msfvenom -l payloads
+  ```
 # Reference
 [metasploit-framework](https://github.com/rapid7/metasploit-framework)
